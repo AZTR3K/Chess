@@ -1,3 +1,19 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Experiment.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  menu.cpp
-  Experiment.vcxproj -> C:\Projects\Chess Game\x64\Debug\Chess.exe
+  main.cpp
+D:\Projects\Chess\Experiment\main.cpp(134,115): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Projects\Chess\Experiment\main.cpp(134,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Projects\Chess\Experiment\main.cpp(805,59): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\Projects\Chess\Experiment\main.cpp(805,59): warning C4244:         with
+D:\Projects\Chess\Experiment\main.cpp(805,59): warning C4244:         [
+D:\Projects\Chess\Experiment\main.cpp(805,59): warning C4244:             T=unsigned int
+D:\Projects\Chess\Experiment\main.cpp(805,59): warning C4244:         ]
+D:\Projects\Chess\Experiment\main.cpp(805,39): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\Projects\Chess\Experiment\main.cpp(805,39): warning C4244:         with
+D:\Projects\Chess\Experiment\main.cpp(805,39): warning C4244:         [
+D:\Projects\Chess\Experiment\main.cpp(805,39): warning C4244:             T=unsigned int
+D:\Projects\Chess\Experiment\main.cpp(805,39): warning C4244:         ]
+D:\Projects\Chess\Experiment\main.cpp(1074,94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Projects\Chess\Experiment\main.cpp(1074,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Projects\Chess\Experiment\main.cpp(1106,31): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Projects\Chess\Experiment\main.cpp(1107,31): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Experiment.vcxproj -> D:\Projects\Chess\x64\Debug\Chess.exe

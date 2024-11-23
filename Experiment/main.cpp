@@ -16,11 +16,11 @@ enum PlayerState
     EXIT
 };
 
-PlayerState currentState = MENU;
+PlayerState currentState = MENU; 
 
-const int windowWidth = 3840;
-const int windowHeight = 2160;
-const float cellSize = windowWidth / 18;
+const int windowWidth = 1920;
+const int windowHeight = 1080;
+const float cellSize = windowWidth / 17;
 
 const int whiteKing = 5;
 const int whiteQueen = 6;
@@ -185,7 +185,7 @@ public:
     void draw(RenderWindow& window, const float posX, const float posY) override
     {
         sprite.setPosition(posX, posY);
-        float scaleFactor = 0.7f;
+        float scaleFactor = 0.35f;
         sprite.setScale(scaleFactor, scaleFactor);
         window.draw(sprite);
     }
@@ -318,7 +318,7 @@ public:
     void draw(RenderWindow& window, const float posX, const float posY) override
     {
         sprite.setPosition(posX, posY);
-        float scaleFactor = 0.7f;
+        float scaleFactor = 0.35f;
         sprite.setScale(scaleFactor, scaleFactor);
         window.draw(sprite);
     }
@@ -452,7 +452,7 @@ public:
     void draw(RenderWindow& window, const float posX, const float posY) override
     {
         sprite.setPosition(posX, posY);
-        float scaleFactor = 0.7f;
+        float scaleFactor = 0.35f;
         sprite.setScale(scaleFactor, scaleFactor);
         window.draw(sprite);
     }
@@ -487,7 +487,7 @@ public:
     void draw(RenderWindow& window, const float posX, const float posY) override
     {
         sprite.setPosition(posX, posY);
-        float scaleFactor = 0.7f;
+        float scaleFactor = 0.35f;
         sprite.setScale(scaleFactor, scaleFactor);
         window.draw(sprite);
     }
@@ -522,7 +522,7 @@ public:
     void draw(RenderWindow& window, const float posX, const float posY) override
     {
         sprite.setPosition(posX, posY);
-        float scaleFactor = 0.7f;
+        float scaleFactor = 0.35f;
         sprite.setScale(scaleFactor, scaleFactor);
         window.draw(sprite);
     }
@@ -557,7 +557,7 @@ public:
     void draw(RenderWindow& window, const float posX, const float posY) override
     {
         sprite.setPosition(posX, posY);
-        float scaleFactor = 0.7f;
+        float scaleFactor = 0.35f;
         sprite.setScale(scaleFactor, scaleFactor);
         window.draw(sprite);
     }
@@ -592,7 +592,7 @@ public:
     void draw(RenderWindow& window, const float posX, const float posY) override
     {
         sprite.setPosition(posX, posY);
-        float scaleFactor = 0.7f;
+        float scaleFactor = 0.35f;
         sprite.setScale(scaleFactor, scaleFactor);
         window.draw(sprite);
     }
@@ -627,7 +627,7 @@ public:
     void draw(RenderWindow& window, const float posX, const float posY) override
     {
         sprite.setPosition(posX, posY);
-        float scaleFactor = 0.7f;
+        float scaleFactor = 0.35f;
         sprite.setScale(scaleFactor, scaleFactor);
         window.draw(sprite);
     }
@@ -662,7 +662,7 @@ public:
     void draw(RenderWindow& window, const float posX, const float posY) override
     {
         sprite.setPosition(posX, posY);
-        float scaleFactor = 0.7f;
+        float scaleFactor = 0.35f;
         sprite.setScale(scaleFactor, scaleFactor);
         window.draw(sprite);
     }
@@ -697,7 +697,7 @@ public:
     void draw(RenderWindow& window, const float posX, const float posY) override
     {
         sprite.setPosition(posX, posY);
-        float scaleFactor = 0.7f;
+        float scaleFactor = 0.35f;
         sprite.setScale(scaleFactor, scaleFactor);
         window.draw(sprite);
     }
@@ -732,7 +732,7 @@ public:
     void draw(RenderWindow& window, const float posX, const float posY) override
     {
         sprite.setPosition(posX, posY);
-        float scaleFactor = 0.7f;
+        float scaleFactor = 0.35f;
         sprite.setScale(scaleFactor, scaleFactor);
         window.draw(sprite);
     }
@@ -767,7 +767,7 @@ public:
     void draw(RenderWindow& window, const float posX, const float posY) override
     {
         sprite.setPosition(posX, posY);
-        float scaleFactor = 0.7f;
+        float scaleFactor = 0.35f;
         sprite.setScale(scaleFactor, scaleFactor);
         window.draw(sprite);
     }
@@ -914,7 +914,7 @@ int main()
 
     // Scaling Sprites
     float scaleFactor = 5.2f;
-    float pieceScale = 0.7f;
+    float pieceScale = 0.35f;
 
     // Positioning Sprites
     float boardPosX = (window.getSize().x - chessboard.boardSprite.getGlobalBounds().width) / 2.0f;

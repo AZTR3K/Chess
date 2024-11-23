@@ -18,15 +18,15 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Fast\Semester 2\Object Oriented Programming\Project\Project Chess\Project Chess\menu.cpp">
+    <ClCompile Include="menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Fast\Semester 2\Object Oriented Programming\Project\Project Chess\Project Chess\menu.h">
+    <ClInclude Include="validMoves.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="validMoves.h">
+    <ClInclude Include="menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

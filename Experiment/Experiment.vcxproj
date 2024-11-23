@@ -140,11 +140,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Fast\Semester 2\Object Oriented Programming\Project\Project Chess\Project Chess\menu.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Fast\Semester 2\Object Oriented Programming\Project\Project Chess\Project Chess\menu.h" />
+    <ClInclude Include="menu.h" />
     <ClInclude Include="validMoves.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
